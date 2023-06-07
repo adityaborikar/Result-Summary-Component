@@ -1,0 +1,141 @@
+@font-face {
+  font-family: face;
+  src: url("./assets/fonts/static/HankenGrotesk-Bold.ttf");
+}
+body {
+  font-family: face;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-card {
+  width: 45rem;
+  height: 30rem;
+  display: flex;
+  border-radius: 25px;
+  box-shadow: 50px 50px 50px rgb(0 0 0 / 0.1), 0 8px 5px -6px rgb(0 0 0 / 0.1);
+}
+.sub-card-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border-radius: 25px;
+  color: hsl(241, 100%, 89%);
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.inner-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 160px;
+  margin: auto;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+.inner-circle-text {
+  width: auto;
+  font-size: 60px;
+  text-align: center;
+  display: flex;
+}
+.inner-circle-text-sub {
+  width: auto;
+  font-size: 13px;
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+.text-sm {
+  font-size: 20px;
+}
+.text-md {
+  font-size: 30px;
+}
+.text-white {
+  color: hsl(0, 0%, 100%);
+}
+
+p {
+  margin: auto;
+  width: 65%;
+}
+.sub-card-right {
+  margin-left: 25px;
+}
+.cards {
+  display: flex;
+  border-radius: 10px;
+}
+.t-red {
+  color: hsl(0, 100%, 67%);
+  margin-left: 15px;
+}
+.t-yellow {
+  color: hsl(39, 100%, 56%);
+  margin-left: 15px;
+}
+.t-green {
+  color: hsl(166, 100%, 37%);
+  margin-left: 15px;
+}
+.t-blue {
+  color: hsl(234, 85%, 45%);
+  margin-left: 15px;
+}
+.bg-red {
+  width: 300px;
+  background-color: hsla(0, 100%, 67%, 0.5);
+}
+.bg-yellow {
+  margin-top: 10px;
+  background-color: hsla(39, 100%, 56%, 0.5);
+}
+.bg-green {
+  margin-top: 10px;
+  background-color: hsla(166, 100%, 37%, 0.5);
+}
+.bg-blue {
+  margin-top: 10px;
+  background-color: hsla(234, 85%, 45%, 0.5);
+}
+img {
+  margin-left: 15px;
+}
+span {
+  align-items: center;
+}
+.opacity {
+  opacity: 0.5;
+  margin-left: 5px;
+}
+.marks {
+  width: 100%;
+  text-align: right;
+  padding: 20px;
+}
+.btn {
+  color: hsl(0, 0%, 100%);
+  font-weight: bolder;
+  background-color: hsl(224, 30%, 27%);
+  cursor: pointer;
+  border-radius: 25px;
+  border: 0;
+  margin-top: 40px;
+  width: 300px;
+  padding: 15px;
+}
+.btn:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
